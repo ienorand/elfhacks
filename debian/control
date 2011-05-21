@@ -1,0 +1,23 @@
+Source: libelfhacks
+Priority: extra
+Maintainer: Arand Nash <ienorand@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake
+Standards-Version: 3.8.4
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/libelfhacks.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/libelfhacks.git;a=summary
+
+Package: libelfhacks-dev
+Section: libdevel
+Architecture: any
+Depends: libelfhacks (= ${binary:Version})
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libelfhacks
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
