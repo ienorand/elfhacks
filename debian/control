@@ -1,7 +1,7 @@
 Source: elfhacks
 Priority: extra
 Maintainer: Arand Nash <ienorand@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), cmake
+Build-Depends: debhelper (>= 8), cmake
 Standards-Version: 3.9.2
 Section: libs
 Homepage: https://github.com/nullkey/elfhacks
@@ -11,7 +11,7 @@ Homepage: https://github.com/nullkey/elfhacks
 Package: libelfhacks-dev
 Section: libdevel
 Architecture: any
-Depends: libelfhacks0 (= ${binary:Version})
+Depends: ${misc:Depends}, libelfhacks0 (= ${binary:Version})
 Description: various ELF run-time hacks
  Elfhacks is a collection of functions that aim for retvieving or modifying
  progam's dynamic linking information at run-time.
