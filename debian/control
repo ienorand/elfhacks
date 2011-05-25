@@ -1,4 +1,4 @@
-Source: libelfhacks
+Source: elfhacks
 Priority: extra
 Maintainer: Arand Nash <ienorand@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), cmake
