@@ -2,22 +2,26 @@ Source: libelfhacks
 Priority: extra
 Maintainer: Arand Nash <ienorand@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), cmake
-Standards-Version: 3.8.4
+Standards-Version: 3.9.2
 Section: libs
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/libelfhacks.git
+Homepage: https://github.com/nullkey/elfhacks
+#Vcs-Git: git://git.debian.org/collab-maint/elfhacks.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/libelfhacks.git;a=summary
 
 Package: libelfhacks-dev
 Section: libdevel
 Architecture: any
-Depends: libelfhacks (= ${binary:Version})
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: libelfhacks0 (= ${binary:Version})
+Description: various ELF run-time hacks
+ Elfhacks is a collection of functions that aim for retvieving or modifying
+ progam's dynamic linking information at run-time.
+ .
+ This package contains the development headers for elfhacks
 
-Package: libelfhacks
+Package: libelfhacks0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: various ELF run-time hacks
+ Elfhacks is a collection of functions that aim for retvieving or modifying
+ progam's dynamic linking information at run-time.
