@@ -1,5 +1,5 @@
-elfhacks (0.4.1-1) unstable; urgency=low
+elfhacks (0.4.1-1~ppa1) precise; urgency=low
 
-  * Initial release (Closes: #nnnn)
+  * Initial release to PPA
 
- -- Arand Nash <ienorand@gmail.com>  Wed, 25 May 2011 14:40:16 +0100
+ -- Martin Erik Werner <martinerikwerner@gmail.com>  Mon, 16 Jan 2012 15:59:53 +0100
